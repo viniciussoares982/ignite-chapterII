@@ -4,7 +4,6 @@ import {
   ICreateCategoryDTO,
 } from "./ICategoriesRepository";
 
-// DTO - Data Transfer Object
 class CategoriesRepository implements ICategoriesRepository {
   private categories: Category[];
 
